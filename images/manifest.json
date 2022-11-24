@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 800,
+    "id" : "https://shanlu63.github.io/iiiifff/images/SMARTHOME/canvas/",
+    "label" : {
+      "none" : [ "SMARTHOME" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://shanlu63.github.io/iiiifff/images/SMARTHOME/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://shanlu63.github.io/iiiifff/images/SMARTHOME/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 25,
+              "height" : 13
+            }, {
+              "width" : 50,
+              "height" : 25
+            }, {
+              "width" : 100,
+              "height" : 50
+            }, {
+              "width" : 200,
+              "height" : 100
+            }, {
+              "width" : 400,
+              "height" : 200
+            }, {
+              "width" : 800,
+              "height" : 400
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 800,
+            "@id" : "https://shanlu63.github.io/iiiifff/images/SMARTHOME",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 400
+          } ],
+          "format" : "image/jpeg",
+          "width" : 800,
+          "id" : "https://shanlu63.github.io/iiiifff/images/SMARTHOME/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 400
+        },
+        "target" : "https://shanlu63.github.io/iiiifff/images/SMARTHOME/canvas/"
+      } ]
+    } ],
+    "height" : 400
+  }, {
     "width" : 4000,
     "id" : "https://shanlu63.github.io/iiiifff/images/domotique1/canvas/",
     "label" : {
